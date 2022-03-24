@@ -1,3 +1,2 @@
-tell @a "yay"
-execute as @a if data entity @s Inventory[{"id":"minecraft:chain_command_block"}] run say "YAY"
-
+execute as @a if data entity @s Inventory[{"id":"minecraft:chain_command_block"}] run give @s honeycomb{display:{Name:'[{"text":"blazing core"}]',Lore:['[{"text":"a ball of flame contained within obsidian","italic":false}]']},Enchantments:[{}]} 1
+execute as @a if data entity @s Inventory[{"id":"minecraft:chain_command_block"}] run clear @s minecraft:chain_command_block 1
